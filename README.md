@@ -2,6 +2,12 @@
 
 Learn about cryptographic attacks and how to apply this knowledge to design secure cryptographic primitives.
 
+## Lecturer
+
+### Ling Song
+
+![ling_picture](./PageResources/ling_song.png)
+
 ## Goals and Contents
 
 This course aims to give you in-depth knowledge about the cryptographic attacks, focusing on cryptanalysis of symmetric ciphers. More precisely, this course covers the following topics:
@@ -90,8 +96,3 @@ Todo
 #### Final Exam
 
 Todo
-
-## Lecturer
-
-### Ling Song
-![ling_picture](./PageResources/ling_song.png)
