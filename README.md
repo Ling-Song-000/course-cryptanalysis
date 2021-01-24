@@ -64,21 +64,25 @@ Todo
 #### The Block Cipher Companion
 
 ![block_cipher_companion](./PageResources/block_cipher_companion.jpg)
+
 [Download book](./Books/The-Block-Cipher-Companion.pdf)
 
 #### Applied Cryptanalysis: Breaking Ciphers in the Real World
 
 ![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
+
 [Download book](./Books/AppliedCryptanalysis-BreakingCiphersintheRealWorld.pdf)
 
 #### An Introduction to Mathematical Cryptography
 
 ![into_to_mathematical_crypto](./PageResources/intro_to_mathematical_crypto_hoffstein.jpg)
+
 [Download book](./Books/an_introduction_to_mathematical_cryptography.pdf)
 
 #### Algorithmic Cryptanalysis
 
 ![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
+
 [Download book](./Books/CRC.Algorithmic.Cryptanalysis.Jun.2009.eBook-ELOHiM.pdf)
 
 ## Administrative Information
