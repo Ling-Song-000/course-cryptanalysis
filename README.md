@@ -39,7 +39,7 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
   * Linear distinguishing and correlation attacks
   * Algebraic immunity
 
-* Cryptanalysis of public key
+* Public key cryptanalysis
   * Factoring algorithms
   * Wiener's attack on RSA
   * Lattices
