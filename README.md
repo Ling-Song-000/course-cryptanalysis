@@ -31,7 +31,7 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * Cryptanalysis of hash functions
   * Differential cryptanalysis of hash functions
   * Meet-in-the-Middle Pre-image attack
-  * Todo
+  * Todo ...
 * Cryptanalysis of stream ciphers
   * Guess-and-determine attack on stream ciphers
   * Time-Memory-Data trade off attack
@@ -55,11 +55,27 @@ Todo
 
 Todo
 
-### Suggested Topics for Seminars
+### Suggested Topics for Seminars and Projects
 
 Todo
 
 ### Textbooks
+
+#### Techniques for Cryptanalysis of Block Ciphers
+
+![techniques_for_cryptanalysis_of_block_ciphers](./PageResources/techniques_for_cryptanalysis_of_block_ciphers.jpeg)
+
+[Download book](https://www.springer.com/gp/book/9783642172311)
+
+#### A Salad of Block Ciphers
+
+![a_salad_of_block_ciphers](./PageResources/a_salad_of_block_ciphers_avanzi.png)
+
+[Download book](./Books/a_salad_of_block_ciphers.pdf)
+
+It is available on Cryptology ePrint Archive:
+
+[https://eprint.iacr.org/2016/1171](https://eprint.iacr.org/2016/1171)
 
 #### The Block Cipher Companion
 
