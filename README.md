@@ -83,11 +83,35 @@ Todo
 
 ### Textbooks
 
+#### Applied Cryptanalysis: Breaking Ciphers in the Real World
+
+![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
+
+[Download book](./Books/AppliedCryptanalysis-BreakingCiphersintheRealWorld.pdf)
+
+#### Algorithmic Cryptanalysis
+
+![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
+
+[Download book](./Books/CRC.Algorithmic.Cryptanalysis.Jun.2009.eBook-ELOHiM.pdf)
+
 #### Techniques for Cryptanalysis of Block Ciphers
 
 ![techniques_for_cryptanalysis_of_block_ciphers](./PageResources/techniques_for_cryptanalysis_of_block_ciphers.jpeg)
 
 [Download book](https://www.springer.com/gp/book/9783642172311)
+
+#### The Block Cipher Companion
+
+![block_cipher_companion](./PageResources/block_cipher_companion.jpg)
+
+[Download book](./Books/The-Block-Cipher-Companion.pdf)
+
+#### An Introduction to Mathematical Cryptography
+
+![into_to_mathematical_crypto](./PageResources/intro_to_mathematical_crypto_hoffstein.jpg)
+
+[Download book](./Books/an_introduction_to_mathematical_cryptography.pdf)
 
 #### A Salad of Block Ciphers
 
@@ -99,29 +123,6 @@ It is available on Cryptology ePrint Archive:
 
 [https://eprint.iacr.org/2016/1171](https://eprint.iacr.org/2016/1171)
 
-#### The Block Cipher Companion
-
-![block_cipher_companion](./PageResources/block_cipher_companion.jpg)
-
-[Download book](./Books/The-Block-Cipher-Companion.pdf)
-
-#### Applied Cryptanalysis: Breaking Ciphers in the Real World
-
-![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
-
-[Download book](./Books/AppliedCryptanalysis-BreakingCiphersintheRealWorld.pdf)
-
-#### An Introduction to Mathematical Cryptography
-
-![into_to_mathematical_crypto](./PageResources/intro_to_mathematical_crypto_hoffstein.jpg)
-
-[Download book](./Books/an_introduction_to_mathematical_cryptography.pdf)
-
-#### Algorithmic Cryptanalysis
-
-![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
-
-[Download book](./Books/CRC.Algorithmic.Cryptanalysis.Jun.2009.eBook-ELOHiM.pdf)
 
 ## Administrative Information
 
