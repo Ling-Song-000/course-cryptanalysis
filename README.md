@@ -10,40 +10,54 @@ Learn about cryptographic attacks and how to apply this knowledge to design secu
 
 ## Goals and Contents
 
-This course aims to give you in-depth knowledge about the cryptographic attacks, focusing on cryptanalysis of symmetric ciphers. More precisely, this course covers the following topics:
+This course aims to give you in-depth knowledge about the cryptographic attacks, focusing on cryptanalysis of symmetric ciphers and asymmetric ciphers. More precisely, this course covers the following topics:
 
+* Introduction to Cryptanalysis 
+  * Kerckhoffs' principle 
+  * Notions of security: confidentiality, integrety, authenticity and more
+  * Models of attack
+  * Targets of attack
+  * Theoretic attacks vs. practical attacks
 * Cryptanalysis of block ciphers
-  * Differential attack
-  * Truncated differential attack
-  * Higher order differential attack
-  * Boomerang and rectangle attacks
-  * Impossible differential attack
-  * Linear attack
-  * Multi dimensional linear attack
-  * Zero-correlation linear attack
-  * Algebraic cryptanalysis
-  * Interpolation attack
-  * Integral cryptanalysis
-  * Division property
-  * Meet-in-the-Middle attack
-  * Demirci-Selcuk MitM attack
-  * Subspace trail cryptanalysis
-* Cryptanalysis of hash functions
-  * Differential cryptanalysis of hash functions
-  * Meet-in-the-Middle Pre-image attack
-  * Todo ...
+  * Meet-in-the-Middle attack (TMTO)
+  * Basic differential analysis
+  * Basic linear analysis
+  * Wide-trail strategy and AES
+  * More (optional)
+    * Integral cryptanalysis
+    * Truncated differential attack
+    * Higher order differential attack
+    * Boomerang and rectangle attacks
+    * Impossible differential attack
+    * Multi dimensional linear attack
+    * Zero-correlation linear attack
+    * Division property
+    * Demirci-Selcuk MitM attack
+    * Subspace trail cryptanalysis 
 * Cryptanalysis of stream ciphers
   * Guess-and-determine attack on stream ciphers
   * Time-Memory-Data trade off attack
-  * Cube attacks based on division property
-  * Linear distinguishing and correlation attacks
-  * Algebraic immunity
-
-* Public key cryptanalysis
-  * Factoring algorithms
-  * Wiener's attack on RSA
-  * Lattices
-  * Bleichenbacher's attack
+  * Linear distinguisher and correlation attacks
+* Cryptanalysis of hash functions
+  * Birthday attacks 
+  * MD and Sponge
+  * Differential cryptanalysis and collision attacks
+  * Meet-in-the-Middle Pre-image attack
+* Computer-aided cryptanalysis
+  * MILP-based cryptanalysis
+  * SAT-based cryptanalysis
+* Algebraic cryptanalysis
+  * Interpolation attack
+  * Cube attacks and Higher order differential attack
+  * Linearization 
+* Merkle-Hellman Knapsack
+* Difie-Hellman Key Exchange and MitM
+* Discrete Log algorithms
+  * Baby-step giant-step          
+* Factoring algorithms  
+  * Dixon’s Algorithm 
+  * Quadratic Sieve
+* Quantum algorithms
 
 ## Material
 
@@ -53,11 +67,19 @@ Todo
 
 ### Exercises
 
-Todo
+* Exersices after each section
 
-### Suggested Topics for Seminars and Projects
+### Four Projects
+* Search for differntial trails with MILP/SAT
+* Search for cubes for Keccak
+* Find parameters for guess-and-determine attacks with MILP
+* Implement Wiener’s attack on RSA
 
-Todo
+### Suggested Topics for Seminars (choose one)
+* Designs of stream ciphers with small states
+* RSA and Shor's algorithm
+* Differential analysis of keyless permutations
+* ...
 
 ### Textbooks
 
