@@ -8,6 +8,13 @@ Learn about cryptographic attacks and how to apply this knowledge to design secu
 
 ![ling_picture](./PageResources/ling_song.png)
 
+## Calendar and schedule/ 校历和课表
+* Time: 18:30 - 20:10 Wednesday
+* Calendar / 校历 [Open](./Time-Schedule/2020-2021Calendar.pdf)
+* Class schedule / 课表 [Open](./Time-Schedule/20-class-schedule.pdf)
+* Week 01 - Week 16: lecture
+* Week 17 - Week 20: seminar and presentation
+
 ## Goals and Contents
 
 This course aims to give you in-depth knowledge about the cryptographic attacks, focusing on cryptanalysis of symmetric ciphers and asymmetric ciphers. More precisely, this course covers the following topics:
@@ -17,9 +24,10 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
   * Notions of security: confidentiality, integrety, authenticity and more
   * Models of attack
   * Targets of attack
-  * Theoretic attacks vs. practical attacks
+  * Theoretical attacks vs. practical attacks
+  * Lessons learned from classic ciphers
 * Cryptanalysis of block ciphers
-  * Meet-in-the-Middle attack (TMTO)
+  * Meet-in-the-Middle attack & TMTO
   * Basic differential analysis
   * Basic linear analysis
   * Wide-trail strategy and AES
@@ -70,16 +78,16 @@ Todo
 * Exersices after each section
 
 ### Four Projects
-* Search for differntial trails with MILP/SAT
+* Search for differntial trails with MILP/SAT 
 * Search for cubes for Keccak
 * Find parameters for guess-and-determine attacks with MILP
-* Implement Wiener’s attack on RSA
+* Implement Wiener's attack on RSA
 
 ### Suggested Topics for Seminars (choose one)
 * Designs of stream ciphers with small states
 * RSA and Shor's algorithm
 * Differential analysis of keyless permutations
-* ...
+* Search for differntial trails with MILP/SAT for pSP
 
 ### Textbooks
 
@@ -124,18 +132,3 @@ It is available on Cryptology ePrint Archive:
 [https://eprint.iacr.org/2016/1171](https://eprint.iacr.org/2016/1171)
 
 
-## Administrative Information
-
-Todo
-
-### Evaluation
-
-Todo
-
-#### Exercise
-
-Todo
-
-#### Final Exam
-
-Todo
