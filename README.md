@@ -112,7 +112,7 @@ Todo
 
 ![block_cipher_companion](./PageResources/block_cipher_companion.jpg)
 
-[Website]([./Books/The-Block-Cipher-Companion.pdf](http://www2.mat.dtu.dk/people/Lars.R.Knudsen/bcc/))
+[Website](http://www2.mat.dtu.dk/people/Lars.R.Knudsen/bcc/)
 
 #### An Introduction to Mathematical Cryptography
 
