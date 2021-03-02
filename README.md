@@ -106,7 +106,7 @@ Todo
 
 ![techniques_for_cryptanalysis_of_block_ciphers](./PageResources/techniques_for_cryptanalysis_of_block_ciphers.jpeg)
 
-[Download book](https://www.springer.com/gp/book/9783642172311)
+[Website](https://www.springer.com/gp/book/9783642172311)
 
 #### The Block Cipher Companion
 
