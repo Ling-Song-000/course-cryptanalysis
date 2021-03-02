@@ -9,6 +9,7 @@ Learn about cryptographic attacks and how to apply this knowledge to design secu
 ![ling_picture](./PageResources/ling_song.png)
 
 ## Calendar and schedule/ 校历和课表
+
 * Time: 18:30 - 20:10 Wednesday
 * Calendar / 校历 [Open](./Time-Schedule/2020-2021Calendar.pdf)
 * Class schedule / 课表 [Open](./Time-Schedule/20-class-schedule.pdf)
@@ -19,9 +20,9 @@ Learn about cryptographic attacks and how to apply this knowledge to design secu
 
 This course aims to give you in-depth knowledge about the cryptographic attacks, focusing on cryptanalysis of symmetric ciphers and asymmetric ciphers. More precisely, this course covers the following topics:
 
-* Introduction to Cryptanalysis 
-  * Kerckhoffs' principle 
-  * Notions of security: confidentiality, integrety, authenticity and more
+* Introduction to Cryptanalysis
+  * Kerckhoffs' principle
+  * Notions of security: confidentiality, integrity, authenticity and more
   * Models of attack
   * Targets of attack
   * Theoretical attacks vs. practical attacks
@@ -41,13 +42,13 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
     * Zero-correlation linear attack
     * Division property
     * Demirci-Selcuk MitM attack
-    * Subspace trail cryptanalysis 
+    * Subspace trail cryptanalysis
 * Cryptanalysis of stream ciphers
   * Guess-and-determine attack on stream ciphers
   * Time-Memory-Data trade off attack
   * Linear distinguisher and correlation attacks
 * Cryptanalysis of hash functions
-  * Birthday attacks 
+  * Birthday attacks
   * MD and Sponge
   * Differential cryptanalysis and collision attacks
   * Meet-in-the-Middle Pre-image attack
@@ -57,13 +58,13 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * Algebraic cryptanalysis
   * Interpolation attack
   * Cube attacks and Higher order differential attack
-  * Linearization 
+  * Linearization
 * Merkle-Hellman Knapsack
-* Difie-Hellman Key Exchange and MitM
+* Diffie-Hellman Key Exchange and MitM
 * Discrete Log algorithms
-  * Baby-step giant-step          
+  * Baby-step giant-step
 * Factoring algorithms  
-  * Dixon’s Algorithm 
+  * Dixon’s Algorithm
   * Quadratic Sieve
 * Quantum algorithms
 
@@ -75,19 +76,21 @@ Todo
 
 ### Exercises
 
-* Exersices after each section
+* Exercises after each section
 
 ### Four Projects
-* Search for differntial trails with MILP/SAT 
+
+* Search for differential trails with MILP/SAT
 * Search for cubes for Keccak
 * Find parameters for guess-and-determine attacks with MILP
 * Implement Wiener's attack on RSA
 
 ### Suggested Topics for Seminars (choose one)
+
 * Designs of stream ciphers with small states
 * RSA and Shor's algorithm
 * Differential analysis of keyless permutations
-* Search for differntial trails with MILP/SAT for pSP
+* Search for differential trails with MILP/SAT for pSP
 
 ### Textbooks
 
@@ -95,13 +98,9 @@ Todo
 
 ![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
 
-[Download book](./Books/AppliedCryptanalysis-BreakingCiphersintheRealWorld.pdf)
-
 #### Algorithmic Cryptanalysis
 
 ![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
-
-[Download book](./Books/CRC.Algorithmic.Cryptanalysis.Jun.2009.eBook-ELOHiM.pdf)
 
 #### Techniques for Cryptanalysis of Block Ciphers
 
@@ -113,13 +112,11 @@ Todo
 
 ![block_cipher_companion](./PageResources/block_cipher_companion.jpg)
 
-[Download book](./Books/The-Block-Cipher-Companion.pdf)
+[Website]([./Books/The-Block-Cipher-Companion.pdf](http://www2.mat.dtu.dk/people/Lars.R.Knudsen/bcc/))
 
 #### An Introduction to Mathematical Cryptography
 
 ![into_to_mathematical_crypto](./PageResources/intro_to_mathematical_crypto_hoffstein.jpg)
-
-[Download book](./Books/an_introduction_to_mathematical_cryptography.pdf)
 
 #### A Salad of Block Ciphers
 
@@ -131,4 +128,14 @@ It is available on Cryptology ePrint Archive:
 
 [https://eprint.iacr.org/2016/1171](https://eprint.iacr.org/2016/1171)
 
+#### A Self-Study Course in Block-Cipher Cryptanalysis
 
+![bruce_schneier](./PageResources/bruce_schneier.png)
+
+Studying cryptanalysis is difficult because there is no standard textbook, and no way of knowing which cryptanalytic problems are suitable for different levels of students. This paper attempts to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms.
+
+[Download book](./Books/paper_self_study.pdf)
+
+It is publicly available via the following link:
+
+[https://www.schneier.com/wp-content/uploads/2016/02/paper-self-study.pdf](https://www.schneier.com/wp-content/uploads/2016/02/paper-self-study.pdf)
