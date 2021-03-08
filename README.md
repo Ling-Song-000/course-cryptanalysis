@@ -98,6 +98,8 @@ Todo
 
 ![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
 
+[Website](http://www.cs.sjsu.edu/~stamp/crypto/)
+
 #### Algorithmic Cryptanalysis
 
 ![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
