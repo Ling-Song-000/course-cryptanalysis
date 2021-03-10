@@ -99,6 +99,31 @@
 
 
 %Here you can enter answers to homework questions
+\begin{numedquestion}
+	This concerns using memory in favor of speed in implementing the encryption algorithms. Let $S$ be the AES S-box. Let $MC$ be the mix-column, i.e., it takes as input a column consisting of 4 bytes and outputs such a column. Note that $MC$ is linear, i.e., we have for any two columns $C_{1}, C_{2}$ that:
+	\begin{equation*}
+	MC(C_{1} \oplus C_{2}) = MC(C_{1})\oplus MC(C_{2}). 
+	\end{equation*}
+	
+	Define a function $T_{0}$ as follows: it takes as input a byte $b$, and the output $T_{0}(b)$ is a 4-byte column computed as follows: you first form a column $C(b)$ by placing $S(b)$ in the top byte and all-0 bytes in the lower three positions. Then set $T_{0}(b) = MC(C(b))$. We also define functions $T_{1}, T_{2}, T_{3}$. They are similar to $T_{0}$, except that when we form $C(b)$, we place $S(b)$ in the second, third and fourth entry from the top respectively, and put in 0's elsewhere. 
+	
+	Now consider the state of AES encryption algorithm at the start of some round. Name the bytes in this state $a_{ij}$ as in ? and let $R$ be the state after we have done \texttt{SubBytes}, \texttt{ShiftRow} and \texttt{MixColumn}. So $R$ is a 4 by 4 matrix of bytes. 
+	
+	Show that the first column of $R$ is
+	\begin{equation*}
+	T_{0}(a_{00})\oplus T_{1}(a_{11}) \oplus T_{2}(a_{22}) \oplus T_{3}(a_{33}).
+	\end{equation*}
+	Give similar expressions for the other 3 columns of $R$. 
+	
+	Sketch how this result can be used to implement AES based only on table look-up and XOR, instead of explicitly computing the operations. How much memory would you need for this?  
+	
+	\begin{figure}[ht!]
+		\begin{center}
+			\includegraphics[scale=1.5]{./Figures/aes_round_function.pdf}
+		\end{center}\caption{A Round of AES} \label{fig:aes_round_function}
+	\end{figure}
+	
+\end{numedquestion}
 
 \begin{numedquestion}
 	Consider the following structure where ENC and DEC represent the encryption and decryption via the \texttt{DES} algorithm with 56-bit key respectively. Note that, the first and last encryption blocks use the same 56-bit key $k_{1}$, whereas the middle one utilizes $k_{2}$ which is not necessarily the same as $k_{1}$. Does it provide the $112$-bit security level? If not so, provide a cryptographic attack with time complexity of strictly less than $2^{112}$ \texttt{DES} encryptions. Please explain what model is your attack classified in (known-plaintext, chosen-plaintext, $\ldots$). Besides, the amount of \textbf{time} and \textbf{memory} in your attack should be specified in detail.
@@ -138,7 +163,7 @@ An urn contains $N$ balls, of which $n$ are red and $N - n$ are blue. Bob random
 	
 \textit{Hint: In the previous question, assume that all balls are blue at first. Then, Bob selects $n$ balls one at a time to construct the first list. Next, he repaints those $n$ balls with the red paint and return them to the box. The second list is constructed by drawing $m$ balls out of the urn one after another, noting its number and color, and then replacing it.}
 \item 
-Assume that $H:\{0, 1\}^{\*}\rightarrow \{0, 1\}^{n}$ is a hash function, where $n\in \mathbb{N}$. Prove that, regardless of the internal structure of $H$, a collision can be found with high probability in $\mathcal{O}(\sqrt{n})$ steps, where $\mathcal{O}(\sqrt{n})$ words of memory are used. 
+Assume that $H:\{0, 1\}^{\*}\rightarrow \{0, 1\}^{n}$ is a hash function, where $n\in \mathbb{N}$. Prove that, regardless of the internal structure of $H$, a collision can be found with high probability in $\mathcal{O}(2^{\frac{n}{2}})$ steps, where $\mathcal{O}(2^{\frac{n}{2}})$ words of memory are used. 
 \end{alphaparts}
 \end{numedquestion}
 
@@ -156,36 +181,9 @@ where $t\in \mathbb{N}$.
 	\begin{alphaparts}
 		\item Given a $y\in S$, how would you check the existence of $x$ (such that $f(x) = y$) among the first $t$ columns of the above array if you are merely given the first and the last columns of the above array?
 		\item Assuming that all elements inside the $0$'th through $t - 1$'st columns of the above array are different, compute the probability of appearing $x$ among the first $t$ columns.
-		\item By the birthday paradox, prove that if we add new rows to the above array, the additional rows have likely no common point with the previous ones as long as $t\cdot mt \leq N$. Hence, choosing $m$ and $t$ such that $mt^{2} > N$ will not be a good choice. 
+		\item By the birthday paradox, prove that if we add new a new row to the above array, the additional row have likely no common point with the previous ones as long as $t\cdot mt \leq N$. Hence, choosing $m$ and $t$ such that $mt^{2} > N$ will not be a good choice. 
 		\item If we choose $m$ and $t$ such that the relation $mt^{2} = N$ is satisfied, then a single array like above covers only a fraction $\frac{mt}{N} = \frac{1}{t}$ of $S$. On the other hand, constructing additional tables using the same strategy as above, increases the probability of reappearing the same points in different tables which causes us to waste a lot of space! So, what is your solution to cover the whole $S$? 
 		\end{alphaparts}
-\end{numedquestion}
-
-
-\begin{numedquestion}
-This concerns using memory in favor of speed in implementing the encryption algorithms. Let $S$ be the AES S-box. Let $MC$ be the mix-column, i.e., it takes as input a column consisting of 4 bytes and outputs such a column. Note that $MC$ is linear, i.e., we have for any two columns $C_{1}, C_{2}$ that:
-\begin{equation*}
-	MC(C_{1} \oplus C_{2}) = MC(C_{1})\oplus MC(C_{2}). 
-\end{equation*}
- 
- Define a function $T_{0}$ as follows: it takes as input a byte $b$, and the output $T_{0}(b)$ is a 4-byte column computed as follows: you first form a column $C(b)$ by placing $S(b)$ in the top byte and all-0 bytes in the lower three positions. Then set $T_{0}(b) = MC(C(b))$. We also define functions $T_{1}, T_{2}, T_{3}$. They are similar to $T_{0}$, except that when we form $C(b)$, we place $S(b)$ in the second, third and fourth entry from the top respectively, and put in 0's elsewhere. 
- 
- Now consider the state of AES encryption algorithm at the start of some round. Name the bytes in this state $a_{ij}$ as in ? and let $R$ be the state after we have done \texttt{SubBytes}, \texttt{ShiftRow} and \texttt{MixColumn}. So $R$ is a 4 by 4 matrix of bytes. 
- 
- Show that the first column of $R$ is
- \begin{equation*}
-T_{0}(a_{00})\oplus T_{1}(a_{11}) \oplus T_{2}(a_{22}) \oplus T_{3}(a_{33}).
- \end{equation*}
-Give similar expressions for the other 3 columns of $R$. 
-
-Sketch how this result can be used to implement AES based only on table look-up and XOR, instead of explicitly computing the operations. How much memory would you need for this?  
-
-\begin{figure}[ht!]
-	\begin{center}
-		\includegraphics[scale=1.5]{./Figures/aes_round_function.pdf}
-	\end{center}\caption{A Round of AES} \label{fig:aes_round_function}
-\end{figure}
-
 \end{numedquestion}
 
 \begin{numedquestion}
