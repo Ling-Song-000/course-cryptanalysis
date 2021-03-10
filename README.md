@@ -77,6 +77,7 @@ Todo
 ### Exercises
 
 * Exercises after each section
+  * [Homework 1](Exercises/Exercise1/Exercise1.pdf)
 
 ### Four Projects
 
