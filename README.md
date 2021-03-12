@@ -87,7 +87,6 @@ Todo
 * Search for cubes for Keccak
 * Find parameters for the guess-and-determine attacks with MILP
 * Implement Wiener's attack on RSA
-* Implementing the dark-side and nested attacks on RFIC cards
 
 ### Suggested Topics for Seminars (choose one)
 
