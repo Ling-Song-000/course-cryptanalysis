@@ -77,13 +77,16 @@ Todo
 ### Exercises
 
 * Exercises after each section
+  * [Homework 1](Exercises/Exercise1/Exercise1.pdf)
 
-### Four Projects
+### Suggested Topics for Projects (choose one)
 
-* Search for differential trails with MILP/SAT
-* Search for cubes for Keccak
-* Find parameters for guess-and-determine attacks with MILP
-* Implement Wiener's attack on RSA
+* Search for the best differential trails with MILP/SAT
+* Search for the integral distinguishers based on division property using MILP/SAT
+* Search for the cube attacks on stream ciphers with MILP/SAT
+* Search for cubes for [Keccak](https://keccak.team/)
+* Find parameters for the guess-and-determine attacks with MILP
+* Implement Wiener's attack on [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 
 ### Suggested Topics for Seminars (choose one)
 
@@ -91,12 +94,18 @@ Todo
 * RSA and Shor's algorithm
 * Differential analysis of keyless permutations
 * Search for differential trails with MILP/SAT for pSP
+* Machine learning-based symmetric cryptanalysis
+* Hybrid approaches including:
+  * Differential-Linear Attack
+  * Algebraic-Differential Attack
 
 ### Textbooks
 
 #### Applied Cryptanalysis: Breaking Ciphers in the Real World
 
 ![applied_crypto_stamp](./PageResources/applied_cryptanalysis_stamp.png)
+
+[Website](http://www.cs.sjsu.edu/~stamp/crypto/)
 
 #### Algorithmic Cryptanalysis
 
