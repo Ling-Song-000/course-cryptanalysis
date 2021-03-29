@@ -73,10 +73,9 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 ### Slides
 
 * [Session 2 (MitM and TMTO)](Slides\Main\第二节MitM_TMTO.pptx)
-
 * [Session 3 (DC and LC)](Slides\Main\第三节_FEAL_DC_LC.pptx)
-
 * [Session 4 (AES Wide Trail Strategy)](Slides\Main\第四节_AES_wide_trail.pptx)
+* [Session 5 (Tools for Cryptanalysis)](Slides\Main\第五节-Tools%20for%20cryptanalysis.pdf)
 
 ### Exercises
 
