@@ -77,6 +77,7 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * [Session 4 (AES Wide Trail Strategy)](Slides/Main/第四节_AES_wide_trail.pptx)
 * [Session 5 (Tools for Cryptanalysis)](Slides/Main/第五节-Tools%20for%20cryptanalysis.pdf)
 * [Session 6 (Hash Functions)](Slides/Main/第六节_HashFunctions.pdf)
+* [Session 7 (MD4 and Collision Attacks)](Slides/第七节-MD4-collisionAttack.pptx)
 
 ### Exercises
 
