@@ -80,7 +80,7 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * [Session 7 (MD4 and Collision Attacks)](Slides/Main/第七节-MD4-collisionAttack.pptx)
 * [Session 8 (Permutation Based Cryptography)](Slides/Main/第8节_permutation-based_crypto.pdf)
 * [Session 9 (Boolean Functions)](Slides/Main/BF.pdf)
-* [Session 10 (Cryptanalysis of Keccack)](第10节_Cryptanalysis_of_Keccak.pdf)
+* [Session 10 (Cryptanalysis of Keccack)](Slides/Main/第10节_Cryptanalysis_of_Keccak.pdf)
 
 ### Exercises
 
