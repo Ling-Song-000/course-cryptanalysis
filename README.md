@@ -81,6 +81,8 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * [Session 8 (Permutation Based Cryptography)](Slides/Main/第8节_permutation-based_crypto.pdf)
 * [Session 9 (Boolean Functions)](Slides/Main/BF.pdf)
 * [Session 10 (Cryptanalysis of Keccack)](Slides/Main/第10节_Cryptanalysis_of_Keccak.pdf)
+* [Session 14 (Introduction to NTRU Public Key Cryptosystem)](Slides/Main/第14节-NTRU.pdf)
+* [Session 15 (RSA and Coppersmith Method)](Slides/Main/第15节_RSA.pdf)
 
 ### Exercises
 
