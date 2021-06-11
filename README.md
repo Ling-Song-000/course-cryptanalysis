@@ -76,6 +76,13 @@ This course aims to give you in-depth knowledge about the cryptographic attacks,
 * [Session 3 (DC and LC)](Slides/Main/第三节_FEAL_DC_LC.pptx)
 * [Session 4 (AES Wide Trail Strategy)](Slides/Main/第四节_AES_wide_trail.pptx)
 * [Session 5 (Tools for Cryptanalysis)](Slides/Main/第五节-Tools%20for%20cryptanalysis.pdf)
+* [Session 6 (Hash Functions)](Slides/Main/第六节_HashFunctions.pdf)
+* [Session 7 (MD4 and Collision Attacks)](Slides/Main/第七节-MD4-collisionAttack.pptx)
+* [Session 8 (Permutation Based Cryptography)](Slides/Main/第8节_permutation-based_crypto.pdf)
+* [Session 9 (Boolean Functions)](Slides/Main/BF.pdf)
+* [Session 10 (Cryptanalysis of Keccack)](Slides/Main/第10节_Cryptanalysis_of_Keccak.pdf)
+* [Session 14 (Introduction to NTRU Public Key Cryptosystem)](Slides/Main/第14节-NTRU.pdf)
+* [Session 15 (RSA and Coppersmith Method)](Slides/Main/第15节_RSA.pdf)
 
 ### Exercises
 
