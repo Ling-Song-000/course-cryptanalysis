@@ -1,20 +1,10 @@
 # Cryptanalysis
 
-Learn about cryptographic attacks and how to apply this knowledge to design secure cryptographic primitives.
+## Learn about cryptographic attacks and how to apply this knowledge to design secure cryptographic primitives.
 
-## Lecturer
-
-### Ling Song
-
-![ling_picture](./PageResources/ling_song.png)
-
-## Calendar and schedule/ 校历和课表
-
-* Time: 18:30 - 20:10 Wednesday
-* Calendar / 校历 [Open](./Time-Schedule/2020-2021Calendar.pdf)
-* Class schedule / 课表 [Open](./Time-Schedule/20-class-schedule.pdf)
-* Week 01 - Week 16: lecture
-* Week 17 - Week 20: seminar and presentation
+I (Hosein Hadipour) originally created this repository in 2021. 
+It was then forked and used by a Chinese teacher. 
+However, anyone else can fork and use it if they find it useful. Any comments or modifications would be greatly appreciated.
 
 ## Goals and Contents
 
